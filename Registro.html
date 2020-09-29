@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro</title>
+    <link rel="stylesheet"  href="style.css" type="text/css"> 
+    <script src="https://kit.fontawesome.com/9eadf3da06.js" crossorigin="anonymous"></script>
+</head>
+<body> 
+
+    <header>
+     <div class="encabezado">
+         <img src="icono.jpeg" alt="Foto del Icono">
+        
+     </div>  
+     <div class="home">
+         <a href="index.html">Home</a>
+         <a href="Ubicacion.html">Ubicación</a>
+         <a href="Contacto.html">Contacto</a>
+         <a href="Registro.html"> Registrese</a>
+    </div>
+    </header>
+    <h2>Registrese para que nos pongamos en contacto con usted</h2>
+   
+    <div class="formulario">
+    <form action="datos.html" >
+        <fieldset class="styling">
+        <label for="firstName">Nombre: </label> <input type="text" id="nombre" name="Nombre" placeholder="Escriba su nombre"><br>
+        <label for="lastName">Apellido: </label> <input type="text" id="apellido" name="Apellido" placeholder="Escriba su apellido"><br>
+        <label for="mail"> E-mail: </label> <input type="email" id="mail" name="Mail" placeholder="Escriba su e-mail"><br>
+        <label for="dateOfBirth">Fecha de nacimiento: </label> <input type="date" name="Fec.Nacimiento" id="fechanac"><br><br>
+        <label for="home">Tipo de hogar deseado: </label>  <select name="barrio">
+            <option selected value="SinSeleccionar"> Sin seleccionar</option>
+                
+                <option value="1">Casa</option> 
+                <option value="2">Departamento</option> 
+                <option value="3">Loft</option> 
+                <option value="4">PH</option> 
+                <option value="5">Indiferente</option> 
+                
+            
+         </select><br><br>
+       
+        
+        <label for="operation">Operacion deseada:</label> <br>
+            <input type="radio" name="operation" id="operacion" value="Venta"> Venta <br>
+            <input type="radio" name="operation" id="operacion" value="Alquiler"> Alquiler <br>
+            <input type="radio" name="operation" id="operacion" value="Indiferente"> Indiferente <br>
+            <br>
+
+        <label for="neighbour"> Barrios de interés: </label><br>
+            <input type="checkbox" name="barrio" value="Almagro">Almagro
+            <input type="checkbox" name="barrio" value="Balvanera">Balvanera
+            <input type="checkbox" name="barrio" value="Belgrano">Belgrano
+            <input type="checkbox" name="barrio" vualue="Boedo">Boedo
+            <input type="checkbox" name="barrio" vualue="Caballito"> Caballito
+            <br><input type="checkbox" name="barrio" value="Chacarita">Chacarita
+            <input type="checkbox" name="barrio" value="Monserrat">Monserrat
+            <input type="checkbox" name="barrio" value="Palermo">Palermo
+            <input type="checkbox" name="barrio" vualue="Villa Crespo">Villa Crespo
+            <input type="checkbox" name="barrio" vualue="Otro"> Otro
+            <br>
+            <br>
+            <br>
+            <div id=submit>
+                <input type="submit" value="Enviar">
+            </div>
+            <br>
+            <br>
+            <br>
+        </fieldset>
+    </form>
+
+
+</div>
+    <footer>
+        <h3><p>Contactese con nosotros:</p></h3>
+        <a href="https://www.facebook.com/pages/category/Real-Estate-Agent/Sulki-Propiedades-216299175572556/"><i class="fab fa-facebook"></i></a>
+        <a href="https://instagram.com/sulki.propiedades?igshid=vn347l6r8pmj"><i class="fab fa-instagram"></i></a>
+        
+    </footer>
+    
+    </body>
+    </html>

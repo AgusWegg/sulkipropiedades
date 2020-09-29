@@ -18,14 +18,14 @@
   }
 
   @media only screen and (min-width: 780px) {
-    .textocuerpo{
+    .tex_bod{
         font-style: italic;
     }
     
 /*-----------FIN DE Adaptacion a distintas pantallas---------*/
 
 /*-----------primera parte del Cuerpo---------*/
-    .textocuerpo p{
+    .tex_bod p{
         border-radius: 0%;
         text-align: center;
         align-items: center;
@@ -38,7 +38,7 @@
         padding-left: 20%;
         
     }
-    .cuerpo {
+    .bod {
         display: flex;
         justify-content: center;
         align-items: center;
@@ -78,14 +78,14 @@ header{
     height: 100%;
 }
 
-.encabezado{
+.head{
         height: 100%;
         display: table;
         float: left; 
         width:15%; 
     }
 
-.encabezado img{
+.head img{
  float: left !important;  
  width: 100%; 
 }
@@ -109,9 +109,9 @@ header{
     padding-right: 0.7vw;
 }
 
-.encabezado img:hover {
+.head img:hover {
     opacity: 0.5;
-    width: 80%;
+    width: 120%;
 }
 
 /*-----------FIN DEL Encabezado---------*/
@@ -159,11 +159,11 @@ table, tr, td, th {
 
 
 /*Mapas*/
-.mapas{
+.mapa{
     text-align: center;
     width: 100%
 }
-.mapas iframe{
+.mapa iframe{
     align-content: center;
 }
 
